@@ -22,11 +22,11 @@ export default function MakeliaWebsite() {
             <img
               src="/logo.png"
               alt="MAKELIA"
-              className="w-20 h-20 object-contain"
+              className="w-16 h-16 object-contain"
             />
 
             <div>
-              <h1 className="text-2xl font-bold tracking-wide text-[#D4AF37]">
+              <h1 className="text-xl md:text-3x1 font-bold tracking-wide text-[#D4AF37] leading-none">
                 MAKELIA
               </h1>
 
@@ -57,7 +57,7 @@ export default function MakeliaWebsite() {
           <a
             href="https://wa.me/51937617449"
             target="_blank"
-            className="bg-[#D4AF37] text-[#06142E] px-7 py-4 rounded-full font-bold hover:scale-105 transition duration-300 shadow-xl flex items-center justify-center text-center"
+            className="bg-[#D4AF37] text-[#06142E] px-5 py-3 rounded-full font-bold hover:scale-105 transition duration-300 shadow-xl flex items-center justify-center text-center"
           >
             Agendar cita
           </a>
@@ -165,10 +165,10 @@ export default function MakeliaWebsite() {
                 </p>
               </div>
 
-              <div className="bg-[#0B2147] p-6 rounded-3xl border border-yellow-700/20">
-                <ShieldCheck className="text-[#D4AF37] mb-4" size={60} />
+              <div className="bg-[#0B2147] p-5 md:p-6 rounded-3xl border border-yellow-700/20">
+                <ShieldCheck className="text-[#D4AF37] mb-4" size={50} />
 
-                <h3 className="font-bold text-xl mb-3">
+                <h3 className="font-bold text-xl md:text-x1 mb-3 leading-tight break-words">
                   Confidencialidad
                 </h3>
 

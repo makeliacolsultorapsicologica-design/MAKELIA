@@ -261,7 +261,7 @@ export default function MakeliaWebsite() {
 
               <div className="flex items-center gap-4">
                 <Phone className="text-[#D4AF37]" />
-                <span>943165856 - 966109949</span>
+                <span>937617449 - 966109949</span>
               </div>
 
               <div className="flex items-center gap-4">
@@ -318,7 +318,7 @@ export default function MakeliaWebsite() {
 
       {/* WHATSAPP FLOAT */}
       <a
-        href="https://wa.me/51943165856"
+        href="https://wa.me/51937617449"
         target="_blank"
         className="fixed bottom-6 right-6 bg-green-500 p-5 rounded-full shadow-2xl hover:scale-110 transition z-50"
       >

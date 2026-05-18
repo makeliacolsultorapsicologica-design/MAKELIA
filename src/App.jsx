@@ -22,7 +22,7 @@ export default function MakeliaWebsite() {
             <img
               src="/logo.png"
               alt="MAKELIA"
-              className="w-14 h-14 object-contain"
+              className="w-20 h-20 object-contain"
             />
 
             <div>
@@ -37,19 +37,19 @@ export default function MakeliaWebsite() {
           </div>
 
           <nav className="hidden md:flex gap-8 text-sm">
-            <a href="#inicio" className="hover:text-[#D4AF37] transition">
+            <a href="#inicio" className="px-5 py-2 rounded-full text-base font-semibold tracking-wide hover:bg-[#D4AF37] hover:text-[#06142E] transition duration-300">
               Inicio
             </a>
 
-            <a href="#nosotros" className="hover:text-[#D4AF37] transition">
+            <a href="#nosotros" className="px-5 py-2 rounded-full text-base font-semibold tracking-wide hover:bg-[#D4AF37] hover:text-[#06142E] transition duration-300">
               Nosotros
             </a>
 
-            <a href="#servicios" className="hover:text-[#D4AF37] transition">
+            <a href="#servicios" className="px-5 py-2 rounded-full text-base font-semibold tracking-wide hover:bg-[#D4AF37] hover:text-[#06142E] transition duration-300">
               Servicios
             </a>
 
-            <a href="#contacto" className="hover:text-[#D4AF37] transition">
+            <a href="#contacto" className="px-5 py-2 rounded-full text-base font-semibold tracking-wide hover:bg-[#D4AF37] hover:text-[#06142E] transition duration-300">
               Contacto
             </a>
           </nav>
@@ -57,7 +57,7 @@ export default function MakeliaWebsite() {
           <a
             href="https://wa.me/51937617449"
             target="_blank"
-            className="bg-[#D4AF37] text-[#06142E] px-5 py-3 rounded-full font-semibold hover:scale-105 transition"
+            className="bg-[#D4AF37] text-[#06142E] px-7 py-4 rounded-full font-bold hover:scale-105 transition duration-300 shadow-xl flex items-center justify-center text-center"
           >
             Agendar cita
           </a>
@@ -72,7 +72,7 @@ export default function MakeliaWebsite() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
           <div>
-            <p className="text-[#D4AF37] uppercase tracking-[4px] mb-4">
+            <p className="text-[#D4AF37] uppercase tracking-[8px] mb-4">
               Tu equilibrio empieza aquí
             </p>
 
@@ -111,7 +111,7 @@ export default function MakeliaWebsite() {
             <img
               src="/hero-psychology.jpg"
               alt="Psicología"
-              className="relative rounded-[80px] shadow-2xl border border-yellow-700/20"
+              className="relative rounded-[60px] shadow-2xl border border-yellow-700/20"
             />
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function MakeliaWebsite() {
           />
 
           <div>
-            <p className="text-[#D4AF37] uppercase tracking-[4px] mb-4">
+            <p className="text-[#D4AF37] uppercase tracking-[8px] mb-4">
               Sobre nosotros
             </p>
 
@@ -166,7 +166,7 @@ export default function MakeliaWebsite() {
               </div>
 
               <div className="bg-[#0B2147] p-6 rounded-3xl border border-yellow-700/20">
-                <ShieldCheck className="text-[#D4AF37] mb-4" size={40} />
+                <ShieldCheck className="text-[#D4AF37] mb-4" size={60} />
 
                 <h3 className="font-bold text-xl mb-3">
                   Confidencialidad
@@ -190,7 +190,7 @@ export default function MakeliaWebsite() {
         <div className="max-w-7xl mx-auto">
 
           <div className="text-center mb-20">
-            <p className="text-[#D4AF37] uppercase tracking-[4px] mb-4">
+            <p className="text-[#D4AF37] uppercase tracking-[8px] mb-4">
               Servicios
             </p>
 
@@ -249,7 +249,7 @@ export default function MakeliaWebsite() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16">
 
           <div>
-            <p className="text-[#D4AF37] uppercase tracking-[4px] mb-4">
+            <p className="text-[#D4AF37] uppercase tracking-[8px] mb-4">
               Contacto
             </p>
 
